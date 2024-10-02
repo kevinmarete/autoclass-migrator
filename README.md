@@ -28,9 +28,14 @@
    ```bash
    pip install -r requirements.txt
    ```
+3. Set up the Google Cloud SDK:
+   - Follow the instructions [here](https://cloud.google.com/sdk/docs/install) to install the Google Cloud SDK.
+   - Authenticate the SDK by running:
+     ```bash
+     gcloud auth application-default login
+     ```
 
 ## Usage
-
 1. Run the script:
    ```bash
    python main.py -f <input_file>
