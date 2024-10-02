@@ -1,0 +1,58 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables and configuration files
+.env
+*.env
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Unit test / coverage reports
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Pylint
+pylint-report.txt
+
+# Python pip file
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local files for Docker / Cloud infrastructure
+docker-compose.override.yml
